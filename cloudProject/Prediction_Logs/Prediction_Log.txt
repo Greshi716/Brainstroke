@@ -1,0 +1,24 @@
+2023-03-30/20:52:19		Entered the load_model method of the File_Operation class
+2023-03-30/20:52:19		Model File XGBoost loaded. Exited the load_model method of the Model_Finder class
+2023-03-30/20:54:07		Entered the load_model method of the File_Operation class
+2023-03-30/20:54:07		Model File XGBoost loaded. Exited the load_model method of the Model_Finder class
+2023-03-30/20:54:56		Entered the load_model method of the File_Operation class
+2023-03-30/20:54:56		Model File XGBoost loaded. Exited the load_model method of the Model_Finder class
+2023-03-30/20:56:01		Entered the load_model method of the File_Operation class
+2023-03-30/20:56:01		Model File XGBoost loaded. Exited the load_model method of the Model_Finder class
+2023-03-30/21:01:29		Entered the load_model method of the File_Operation class
+2023-03-30/21:01:29		Model File XGBoost loaded. Exited the load_model method of the Model_Finder class
+2023-03-30/21:03:11		Entered the load_model method of the File_Operation class
+2023-03-30/21:03:11		Model File RandomForest loaded. Exited the load_model method of the Model_Finder class
+2023-03-30/21:04:07		Entered the load_model method of the File_Operation class
+2023-03-30/21:04:07		Model File RandomForest loaded. Exited the load_model method of the Model_Finder class
+2023-03-30/21:06:12		Entered the load_model method of the File_Operation class
+2023-03-30/21:06:12		Model File RandomForest loaded. Exited the load_model method of the Model_Finder class
+2023-03-30/21:07:34		Entered the load_model method of the File_Operation class
+2023-03-30/21:07:34		Model File RandomForest loaded. Exited the load_model method of the Model_Finder class
+2023-03-30/21:08:18		Entered the load_model method of the File_Operation class
+2023-03-30/21:08:18		Model File RandomForest loaded. Exited the load_model method of the Model_Finder class
+2023-04-02/11:17:52		Entered the load_model method of the File_Operation class
+2023-04-02/11:17:52		Model File LogisticRegression loaded. Exited the load_model method of the Model_Finder class
+2023-04-02/11:41:59		Entered the load_model method of the File_Operation class
+2023-04-02/11:41:59		Model File RandomForest loaded. Exited the load_model method of the Model_Finder class
