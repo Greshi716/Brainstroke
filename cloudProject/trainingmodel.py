@@ -1,7 +1,7 @@
 from data_ingestion.data_loader import Data_Getter
 from application_logging.logger import App_Logger
 from file_operations import file_methods
-from data_visualizing.datavisualizer import datavisualizer
+# from data_visualizing.datavisualizer import datavisualizer
 from data_preprocessing import preproessing
 from sklearn.model_selection import train_test_split
 from best_model_finder import tuner
