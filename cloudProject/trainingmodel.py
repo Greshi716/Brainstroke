@@ -15,7 +15,7 @@ class trainModel:
         self.log_writer.log(self.file_object, 'Start of Training')
         try:
             data_getter = Data_Getter(self.file_object, self.log_writer)
-            data=data_getter.get_data("C:/Users/Asus/Downloads/brain_stroke.csv")
+            data=data_getter.get_data("brain_stroke.csv")
             preprocessor = preproessing.Preprocessor(self.file_object, self.log_writer)
             data,gender_map,ever_married_map,residence_type_map,smoking_status_map,work_type_map=preprocessor.labelencoding(data)
             data['work_type'] = data['work_type'].fillna(data['work_type'] == 0)
