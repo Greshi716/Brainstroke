@@ -9,10 +9,10 @@ import pickle
 class trainModelHeart:
     def __init__(self):
         self.log_writer = App_Logger()
-        self.file_object = open("Training_Logs/ModelTrainingLog.txt", 'a+')
+        self.file_object = open("/app/brainstroke/cloudProject/Training_Logs/ModelTrainingLog.txt", 'a+')
     def trainingModelsH(self):
         data_getter = Data_Getter(self.file_object, self.log_writer)
-        data = data_getter.get_data('heart attack.csv')
+        data = data_getter.get_data('/app/brainstroke/cloudProject/heart attack.csv')
         data.drop(columns=['thall'],inplace=True)
         preprocessor = preproessing.Preprocessor(self.file_object, self.log_writer)
         X, Y = preprocessor.seperate_features_target(data, label_column_name='output')
