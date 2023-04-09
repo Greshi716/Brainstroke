@@ -3,7 +3,7 @@ from file_operations.file_methods import File_Operation
 import pickle
 class predictModel1:
     def __init__(self):
-        self.file_object=open("Prediction_Logs/Prediction_Log.txt",'a+')
+        self.file_object=open("/app/brainstroke/cloudProject/Prediction_Logs/Prediction_Log.txt",'a+')
         self.log_writer=App_Logger()
     def predictionFromModel(self,gender,age,hypertension,heart_disease,ever_married,work_type,Residence_type,avg_glucose_level,bmi,smoking_status,gender_map,ever_married_map,residence_type_map,smoking_status_map,work_type_map,model_name):
         gender=gender_map.get(gender)
@@ -25,11 +25,11 @@ class predictModel1:
 
 class predictModelH:
     def __init__(self):
-        self.file_object=open("Prediction_Logs/Prediction_Log.txt",'a+')
+        self.file_object=open("/app/brainstroke/cloudProject/Prediction_Logs/Prediction_Log.txt",'a+')
         self.log_writer=App_Logger()
     def predictionFromModelH(self,age,sex,cp,trtbps,chol,fbs,restecg,thalachh,exng,oldpeak,slp,caa):
         file_op = File_Operation(self.file_object, self.log_writer)
-        load_model =pickle.load(open('LogisticRegression.pkl', 'rb'))
+        load_model =pickle.load(open('/app/brainstroke/cloudProject/LogisticRegression.pkl', 'rb'))
         lst=load_model.predict_proba([[age,sex,cp,trtbps,chol,fbs,restecg,thalachh,exng,oldpeak,slp,caa]])[0]
         lst=lst.tolist()
         index=max(lst)
