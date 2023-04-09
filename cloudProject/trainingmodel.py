@@ -10,7 +10,7 @@ import pickle
 class trainModel:
     def __init__(self):
         self.log_writer = App_Logger()
-        self.file_object = open("Training_Logs/ModelTrainingLog.txt", 'a+')
+        self.file_object = open("/app/brainstroke/cloudProject/Training_Logs/ModelTrainingLog.txt", 'a+')
     def trainingModels(self):
         self.log_writer.log(self.file_object, 'Start of Training')
         try:
